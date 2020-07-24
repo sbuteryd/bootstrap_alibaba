@@ -7,11 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <title>Bootstrap 101 Template</title>
-
     <!-- Bootstrap -->
-    <link href="./bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
-
     <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
     <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
     <!--[if lt IE 9]>
@@ -23,16 +21,44 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <div class="col-md-6">1</div>
-                <div class="col-md-6">2</div>
-            </div>
-            <div class="col-md-4">
-                <div>321</div>
-            </div>
-            <div class="col-md-4">
-                <div>32</div>
-            </div>
+            <header class="col-md-2">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a class="glyphicon glyphicon-camera" href="#">生活馆</a></li>
+                        <li><a class="glyphicon glyphicon-picture" href="#">自然会</a></li>
+                        <li><a class="glyphicon glyphicon-camera" href="#">生活馆</a></li>
+                        <li><a class="glyphicon glyphicon-picture" href="#">自然会</a></li>
+                        <li><a class="glyphicon glyphicon-camera" href="#">生活馆</a></li>
+                    </ul>
+                </div>
+            </header>
+            <article class="col-md-7">
+                <!-- 新闻模块 -->
+                <div class="news clearfix">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./upload/lg.png" alt="">
+                                <p>阿里百秀</p>
+                            </a>
+                        </li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </ul>
+                </div>
+                <!-- 发表模块 -->
+                <div class="publish">
+
+                </div>
+            </article>
+            <aside class="col-md-3">右侧</aside>
         </div>
     </div>
 </body>
