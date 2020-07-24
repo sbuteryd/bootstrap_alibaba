@@ -31,7 +31,20 @@ header {
 }
 
 .logo img {
-    width: 100%;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.logo span {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    background: #337ab7;
+
 }
 
 /* nav */
