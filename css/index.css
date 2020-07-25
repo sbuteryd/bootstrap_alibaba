@@ -52,4 +52,5 @@ a:hover {
 
 .nav a::before {
     vertical-align: middle;
+    padding-right: 5px;
 }
