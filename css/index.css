@@ -5,4 +5,15 @@
     }
 }
 
-in
+.container header {
+    padding-left: 0;
+}
+
+.logo {
+    background: #429ad9;
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+}
