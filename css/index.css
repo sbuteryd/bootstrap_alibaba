@@ -161,4 +161,16 @@ a:hover {
     .nav a {
         font-size: 12px;
     }
+
+    .news {
+        margin-top: 10px;
+    }
+
+    .news li:nth-child(1) {
+        width: 100%;
+    }
+
+    .news li {
+        width: 50%;
+    }
 }
