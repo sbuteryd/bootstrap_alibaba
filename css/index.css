@@ -34,7 +34,8 @@ a:hover {
 
 .logo img {
     display: block;
-    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 /* nav */
@@ -137,4 +138,14 @@ a:hover {
 
 .hot p {
     font-size: 12px;
+}
+
+/* logo */
+.logo span {
+    display: block;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background: #429ad9;
 }
