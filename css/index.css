@@ -8,9 +8,11 @@ body {
     }
 }
 
+
 ul,
 div,
-li {
+li,
+p {
     padding: 0;
     margin: 0;
 }
@@ -33,9 +35,21 @@ ul {
 }
 
 /* header start */
+
 .logo {
+    background-color: #429ad9;
+}
+
+
+
+.logo span {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
     background: #429ad9;
-    height: 120px;
 }
 
 .logo img {
@@ -69,4 +83,131 @@ ul {
     padding-left: 0;
 }
 
-/* header end */
+
+/*news-pic*/
+.news-text {
+    border-top: 1px solid #ccc;
+}
+
+.row {
+    border-bottom: 1px solid #ccc
+}
+
+.news-pic li:nth-child(1) {
+    width: 50%;
+    height: 266px;
+    padding-right: 10px;
+}
+
+.news-pic li:nth-child(1) p {
+    font-size: 20px;
+}
+
+.news-pic li {
+    float: left;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    width: 25%;
+    height: 128px;
+}
+
+
+.news-pic li a {
+    position: relative;
+    display: block;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.news-pic li img {
+    width: 100%;
+    height: 100%;
+}
+
+.news-pic p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px 7px 0;
+    width: 100%;
+    height: 41px;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.news-text .row {
+    padding: 10px 0;
+}
+
+.news-text img {
+    max-width: 100%;
+}
+
+/* banner */
+.banner img {
+    width: 100%;
+}
+
+/* hot */
+.hot {
+    border: 1px solid #ccc;
+    padding: 0 20px 20px;
+}
+
+.hot p {
+    font-size: 12px;
+}
+
+/* 小屏幕 */
+
+@media screen and (max-width:991px) {
+    .nav ul li {
+        float: left;
+        width: 20%;
+    }
+
+    .logo {
+        background: #429ad9
+    }
+
+    .logo img {
+        display: block;
+        margin: 0 auto;
+
+    }
+
+
+    .news-text .col-md-9 {
+        float: left;
+        width: 75%;
+    }
+
+    .news-text .col-md-3 {
+        float: left;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav a {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .news-pic ul li {
+        width: 50%;
+    }
+
+    .news-pic ul li:nth-child(1) {
+        width: 100%;
+    }
+
+    .news-text h4 {
+        font-size: 14px;
+    }
+
+    article {
+        margin-top: 10px;
+    }
+}
