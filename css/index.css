@@ -1,3 +1,21 @@
+ul {
+    list-style-type: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #666;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 @media screen and (min-width:1280px) {
     .container {
         width: 1280px;
@@ -16,4 +34,23 @@
 .logo img {
     display: block;
     width: 100%;
+}
+
+/* nav */
+.nav a {
+    display: block;
+    padding-left: 30px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    background: #eee;
+}
+
+.nav a::before {
+    padding-right: 3px;
+    vertical-align: middle;
+}
+
+.nav a:hover {
+    background: #fff;
 }
