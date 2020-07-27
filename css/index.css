@@ -149,3 +149,16 @@ a:hover {
     line-height: 50px;
     background: #429ad9;
 }
+
+@media screen and (max-width:991px) {
+    .nav ul li {
+        float: left;
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .nav a {
+        font-size: 12px;
+    }
+}
